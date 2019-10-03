@@ -44,3 +44,11 @@ Core3 can run the result
 
 ![build](pics/coreapp3-references-472-execution.png)
 
+### Console Application referencing a 4.7.2 Library using WCF
+
+* Can be built both with 4.7.2 and Core 3
+* Can be only run by 4.7.2
+* Does not even start with Core3
+
+![running](pics/472-wcf-run-core3.png)
+
