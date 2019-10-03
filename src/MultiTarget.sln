@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCore3", "ConsoleCore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console472", "Console472\Console472.csproj", "{3ECD5815-C40F-4B93-A089-2BC1603E0364}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compiling and running", "Compiling and running", "{935C6B3E-5EB5-4080-8143-181E6D3DE455}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Referencing projects", "Referencing projects", "{2FD257ED-23C9-4889-A3D0-91BB40890EAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,9 @@ Global
 		{3ECD5815-C40F-4B93-A089-2BC1603E0364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ECD5815-C40F-4B93-A089-2BC1603E0364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ECD5815-C40F-4B93-A089-2BC1603E0364}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ECD5815-C40F-4B93-A089-2BC1603E0364} = {935C6B3E-5EB5-4080-8143-181E6D3DE455}
+		{78CB987E-356B-481E-A406-8E7E00798A42} = {935C6B3E-5EB5-4080-8143-181E6D3DE455}
 	EndGlobalSection
 EndGlobal

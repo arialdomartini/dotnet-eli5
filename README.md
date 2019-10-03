@@ -15,6 +15,11 @@ Cannot be built with MSBuild for 4.7.2
 
 ## Console Application 4.7.2
 
-Cannot be run with Core 3
+Can be build both with Core 3 and 4.7.2
+
+![running](pics/coreapp3-472-build-core3.png)
+
+But must be run with 4.7.2. Cannot be run with Core 3
 
 ![running](pics/472-run-core3.png)
+
