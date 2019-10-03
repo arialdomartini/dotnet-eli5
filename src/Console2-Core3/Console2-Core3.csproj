@@ -6,6 +6,5 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Library2-472-newcsproj\Library2-472-newcsproj.csproj" />
-    <ProjectReference Include="..\Library2-472-oldcsproj\Library2-472-oldcsproj.csproj" />
   </ItemGroup>
 </Project>

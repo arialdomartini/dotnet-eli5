@@ -52,3 +52,9 @@ Core3 can run the result
 
 ![running](pics/472-wcf-run-core3.png)
 
+
+### CoreApp referencing a 4.7.2 Library using WCF
+
+* Can be compiled with Core 3, but the compiler warns that the framework is not compatible
+
+![running](pics/coreapp3-wcf-compile-core3.png)

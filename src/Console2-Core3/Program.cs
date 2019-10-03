@@ -6,11 +6,10 @@ namespace Console2_Core3
     {
         static void Main(string[] args)
         {
-            var lastError1 = Library2_472_oldcsproj.Win32.OnlyWin32();
+            Console.WriteLine("Started");
+            var result = Library2_472_newcsproj.WcfCall.InvokeIt();
 
-            // this works at runtime
-            var lastError2 = Library2_472_newcsproj.Win32.OnlyWin32();
-            Console.WriteLine(lastError1 + lastError2);
+            Console.WriteLine($"Called WCF code: result={result}");
         }
     }
 }
