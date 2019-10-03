@@ -34,6 +34,13 @@ Can reference a 4.7.2 library as a project!
 
 ![build](pics/coreapp3-references-472.png)
 
-But, if using the new csproj format, it produces a build warning:
+When using the old csproj format, not even a warning is produce.
+
+On the contrary, if using the new csproj format, the compilation produces a warning:
 
 ![build](pics/coreapp3-references-472-csproj2.png)
+
+Core3 can run the result
+
+![build](pics/coreapp3-references-472-execution.png)
+
