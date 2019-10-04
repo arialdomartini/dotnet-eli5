@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <WarningsAsErrors>NU1701,NU1702</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library472-old\Library472-old.csproj" />
+    <ProjectReference Include="..\Library472\Library472.csproj" />
+<!--    <ProjectReference Include="..\Library472\Library472.csproj" />-->
+  </ItemGroup>
+</Project>

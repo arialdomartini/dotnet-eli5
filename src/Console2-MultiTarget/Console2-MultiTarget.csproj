@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Console2_Core2</RootNamespace>
+        <TargetFrameworks>net472;netcoreapp2.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <WarningsAsErrors>NU1701,NU1702</WarningsAsErrors>
+    </PropertyGroup>
+
+
+    <!--    <ItemGroup>-->
+<!--      <PackageReference Include="Library2_472_newcsproj" Version="1.0.0" Condition="'$(TargetFramework)' == 'netcoreapp2.0'" />-->
+<!--    </ItemGroup>-->
+
+</Project>

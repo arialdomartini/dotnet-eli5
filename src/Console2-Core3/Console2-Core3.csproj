@@ -4,7 +4,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>Console2_Core3</RootNamespace>
   </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Library2-472-newcsproj\Library2-472-newcsproj.csproj" />
-  </ItemGroup>
+
+  <PropertyGroup>
+    <WarningsAsErrors>NU1701,NU1702</WarningsAsErrors>
+  </PropertyGroup>
+
 </Project>

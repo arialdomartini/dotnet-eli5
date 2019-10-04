@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <RootNamespace>Library2_472_newcsproj</RootNamespace>
-    <AssemblyName>Library2_472_newcsproj</AssemblyName>
+    <RootNamespace>Library_WCF_472_newcsproj</RootNamespace>
+    <AssemblyName>Library_WCF_472_newcsproj</AssemblyName>
     <TargetFramework>net472</TargetFramework>
     <AssemblyTitle>Library_472</AssemblyTitle>
     <Product>Library_472</Product>
     <Copyright>Copyright ©  2019</Copyright>
     <OutputPath>bin\$(Configuration)\</OutputPath>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
