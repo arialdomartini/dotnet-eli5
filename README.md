@@ -147,3 +147,5 @@ Referencing .NET Framework 4.6.1 (and below) from .NET Core is a new feature ava
 According to MS (see [Reference .NET Framework libraries from .NET Standard](https://devblogs.microsoft.com/dotnet/announcing-net-core-2-0-preview-2/#user-content-reference-net-framework-libraries-from-net-standard)) it can be thought of as a feature that helps you migrate .NET Framework code to .NET Standard or .NET Core over time.
 
 See [dotnet restore warning NU1701](https://stackoverflow.com/a/44999938/202443)
+
+Another bug in dotnet seems to be related to these behaviors: [Suppressing warnings through project properties UI adds tfm condition in csproj file for multi targeting project](https://github.com/dotnet/project-system/issues/2804). The bug is still open and the last comment dates back to July 2018.
