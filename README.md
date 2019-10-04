@@ -149,3 +149,5 @@ According to MS (see [Reference .NET Framework libraries from .NET Standard](htt
 See [dotnet restore warning NU1701](https://stackoverflow.com/a/44999938/202443)
 
 Another bug in dotnet seems to be related to these behaviors: [Suppressing warnings through project properties UI adds tfm condition in csproj file for multi targeting project](https://github.com/dotnet/project-system/issues/2804). The bug is still open and the last comment dates back to July 2018.
+
+In another issue, related to Azure DevOps ([Nuget restore build task ignores `NoWarn` usage](https://github.com/microsoft/azure-pipelines-tasks/issues/5494)), it is claimed that the bug has been fixed in NuGet 4.3.0, which makes everything more confusing, as the above tests have been performed with Nujget 4.9.3.5777.
