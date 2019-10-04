@@ -6,8 +6,8 @@ namespace Console_Core2
     {
     }
 
-//    class A
-//    {
-//        public virtual void Finalize() {}   // CS0465
-//    }
+    class A
+    {
+        public virtual void Finalize() {}   // CS0465
+    }
 }

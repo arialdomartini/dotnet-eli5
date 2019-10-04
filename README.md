@@ -114,3 +114,22 @@ Therefore, to enable the strict control on compatibility, the csproj should cont
 but for some reasons I wasn't able to identify, the setting is just ignored.
 
 This seems to affect other warning codes as well. See the bug report on GitHub [Cannot disable NuGet warnings with dotnet 2.0](https://github.com/NuGet/Home/issues/5769)
+
+
+## Multiple compilations
+Astonishingly, 2 consecutive compilations of the same project produces a different number of warnings:
+
+![compilation1](pics/compile1.png)
+![compilation2](pics/compile2.png)
+
+Another strange behaviour is that the warnings `NU*` such as `NU1702` are just ignored by the settings:
+
+```xml
+<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+```
+
+A possible explaination is that those are NuGet warnings, differently from `CS*` warnings, which are build related: during the first build, `nuget restore` is invoked, which produces the first warning (ignored by `TreatWarningsAsErrors`, which is a MSBuild directive). During the second build, NuGet is not invoked anymore.
+
+This would be in line with what described by @xlegalles in [this comment](https://github.com/NuGet/Home/issues/5769#issuecomment-323295261).
+
+Finally, it seems that there are also other issues with multi-target projects (see the NuGet issue [Framework Conditioned warning properties are not respected for multi-targeting projects](https://github.com/NuGet/Home/issues/5712))
